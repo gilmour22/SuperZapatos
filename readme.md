@@ -5,8 +5,8 @@
 * Migraciones
 
 <code>
-  /database/migrations/2016_08_20_203854_Tienda.php<br>
-  /database/migrations/2016_08_20_204737_Producto.php
+  <p>/database/migrations/2016_08_20_203854_Tienda.php</p>
+  <p>/database/migrations/2016_08_20_204737_Producto.php</p>
 </code>
  
 * Modelos
