@@ -4,50 +4,50 @@
 
 * Migraciones
 
-<code>
-  <p>/database/migrations/2016_08_20_203854_Tienda.php</p>
-  <p>/database/migrations/2016_08_20_204737_Producto.php</p>
-</code>
+```
+  /database/migrations/2016_08_20_203854_Tienda.php
+  /database/migrations/2016_08_20_204737_Producto.php
+```
  
 * Modelos
 
-<code>
-  /app/Tienda.php<br>
-  /app/Producto.php<br>
+```
+  /app/Tienda.php
+  /app/Producto.php
   /app/Services.php
-</code> 
+```
 
 * Vistas
 
-<code>
-  /resources/view/home.blade.php<br>
-  /resources/view/tienda/*<br>
-  /resources/view/producto/*<br>
-  /resources/view/layouts/*<br>
-  /resources/view/errors/*<br>
-</code>  
+```
+  /resources/view/home.blade.php
+  /resources/view/tienda/*
+  /resources/view/producto/*
+  /resources/view/layouts/*
+  /resources/view/errors/*
+```  
 
 * Controladores
 
-<code>
-  /app/Http/Controllers/ProductoController.php<br>
-  /app/Http/Controllers/TiendaController.php<br>
-  /app/Http/Controllers/ServicesController.php<br>
-</code>   
+```
+  /app/Http/Controllers/ProductoController.php
+  /app/Http/Controllers/TiendaController.php
+  /app/Http/Controllers/ServicesController.php
+```
 
 * Servicios
 
-<code>
-  http://<SERVER>/services/stores<br>
-  http://<SERVER>/services/articles<br>
-  http://<SERVER>/services/articles/<STORE_ID><br><br>
+```
+  http://<SERVER>/services/stores
+  http://<SERVER>/services/articles
+  http://<SERVER>/services/articles/<STORE_ID>
   
   Debe Autenticarse utilizando Basic Authentication via HTTP Headers
-</code>
+```
 
 * PHPUnit
 
-<code>
+```
   /tests/ServicesTest.php
-</code>
+```
 
